@@ -33,7 +33,9 @@ This is a practice repository for learning how to build a REST service using Fas
   ```bash
   sudo service mongod start
   ```
+
      - Check MongoDB status in the terminal using:
+  
   ```bash
   service mongod status
   ```
