@@ -3,17 +3,17 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
     <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#usage">Usage</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#postman">Postman</a></li>
+        <li><a href="#curl">cURL</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#troubleshooting">Troubleshooting</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -29,11 +29,11 @@ This is a practice repository for learning how to build a REST service using Fas
 
 1. Install prerequisites. See [Prerequisites](#prerequisites) section.
 2. Make sure MongoDB is running. For more information on how to use MongoDB, please refer to [this documentation](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#procedure).
-  1. Start MongoDB in the terminal using:
+   - Start MongoDB in the terminal using:
   ```bash
   sudo service mongod start
   ```
-  2. Check MongoDB status in the terminal using:
+     - Check MongoDB status in the terminal using:
   ```bash
   service mongod status
   ```
@@ -42,12 +42,12 @@ This is a practice repository for learning how to build a REST service using Fas
 ```bash
   npm i
 ```
-4. Run the server by using:
+5. Run the server by using:
 ```bash
 nodemon index.js
 ```
-5. Use the API using [Usage](#usage).
-6. Close MongoDB if you want to:
+6. Use the API using [Usage](#usage).
+7. Close MongoDB if you want to:
 ```bash
 service mongod stop
 ```
