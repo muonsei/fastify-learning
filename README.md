@@ -28,14 +28,11 @@ This is a practice repository for learning how to build a REST service using Fas
 ## Getting Started
 
 1. Install prerequisites. See [Prerequisites](#prerequisites) section.
-2. Make sure MongoDB is running. For more information on how to use MongoDB, please refer to [this documentation](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#procedure).
-   - Start MongoDB in the terminal using:
+2. Make sure MongoDB is running. For more information on how to use MongoDB, please refer to [this documentation](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#procedure). Start MongoDB in the terminal using:
   ```bash
   sudo service mongod start
   ```
-
-     - Check MongoDB status in the terminal using:
-  
+  Check MongoDB status in the terminal using:
   ```bash
   service mongod status
   ```
